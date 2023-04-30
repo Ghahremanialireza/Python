@@ -1,0 +1,14 @@
+
+#step 1 : type in CLI
+	
+	sudo snap install pycharm-community --classic
+
+#step 2 : type this to start pycharm
+
+	pycharm-community
+
+
+##if you receive this error do ..
+##ModuleNotFoundError: No module named 'distutils.core'
+
+	sudo apt-get install python3-distutils
